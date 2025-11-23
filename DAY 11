@@ -1,0 +1,884 @@
+(15 947 kB/s | 162 kB     00:00    
+(15 1.4 MB/s | 200 kB     00:00    
+(15 1.3 MB/s | 183 kB     00:00    
+(15 3.8 MB/s | 564 kB     00:00    
+(160 1.2 MB/s |  74 kB     00:00    
+(161 7.7 MB/s | 484 kB     00:00    
+(162 3.1 MB/s | 245 kB     00:00    
+(163 4.5 MB/s | 302 kB     00:00    
+(164 1.7 MB/s | 107 kB     00:00    
+(165 943 kB/s |  57 kB     00:00    
+(166 142 kB/s | 9.1 kB     00:00    
+(167 2.0 MB/s | 135 kB     00:00    
+(168/192):  2.9 MB/s | 192 kB     00:00    
+(169/192):  4.1 MB/s | 269 kB     00:00    
+(170/192): poppl  14 MB/s | 1.1 MB     00:00    
+(171/192): poppler  21 MB/s | 1.9 MB     00:00    
+(172/192): poppler-g 1.7 MB/s | 152 kB     00:00    
+(173/192): pulseaudi 8.4 MB/s | 676 kB     00:00    
+(174/192): rtkit-0.1 780 kB/s |  56 kB     00:00    
+(175/192): sound-the 5.2 MB/s | 383 kB     00:00    
+(176/192): totem-pl- 2.3 MB/s | 152 kB     00:00    
+(177/192): spirv-too  18 MB/s | 1.5 MB     00:00    
+(178/192): pipewire- 4.4 MB/s | 1.9 MB     00:00    
+(179/192): tracker-3 6.5 MB/s | 555 kB     00:00    
+(180/192): ttmkfdir- 859 kB/s |  53 kB     00:00    
+(181/192): tracker-m  11 MB/s | 944 kB     00:00    
+(182/192): upower-0. 1.7 MB/s | 173 kB     00:00    
+(183/192): webrtc-au 3.3 MB/s | 306 kB     00:00    
+(184/192): wireplumb 1.5 MB/s |  96 kB     00:00    
+(185/192): wireplumb 5.5 MB/s | 358 kB     00:00    
+(186/192): xdg-dbus- 689 kB/s |  42 kB     00:00    
+(187/192): xdg-deskt 5.9 MB/s | 385 kB     00:00    
+(188/192): xdg-deskt 2.2 MB/s | 134 kB     00:00    
+(189/192): webkit2gt  25 MB/s | 8.6 MB     00:00    
+(190/192): xml-commo 517 kB/s |  32 kB     00:00    
+(191/192): xkeyboard 6.1 MB/s | 859 kB     00:00    
+(192/192): xorg-x11- 7.8 MB/s | 505 kB     00:00    
+-----------------------------------------------------
+Total                 15 MB/s | 181 MB     00:12     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: copy-jdk-configs-4.0-3.el   1/1 
+  Running scriptlet: java-11-openjdk-headless-   1/1 
+  Preparing        :                             1/1 
+  Installing       : libpng-2:1.6.37-12.el     1/192 
+  Installing       : nspr-4.36.0-4.el9.x86     2/192 
+  Installing       : libjpeg-turbo-2.0.90-     3/192 
+  Installing       : json-glib-1.6.6-1.el9     4/192 
+  Installing       : libogg-2:1.3.4-6.el9.     5/192 
+  Installing       : alsa-lib-1.2.14-1.el9     6/192 
+  Installing       : avahi-libs-0.8-23.el9     7/192 
+  Installing       : libvorbis-1:1.3.7-5.e     8/192 
+  Installing       : nss-util-3.112.0-4.el     9/192 
+  Installing       : libwayland-client-1.2    10/192 
+  Installing       : libX11-xcb-1.8.12-1.e    11/192 
+  Installing       : libicu-67.1-10.el9.x8    12/192 
+  Installing       : opus-1.3.1-10.el9.x86    13/192 
+  Installing       : libstemmer-0-18.585sv    14/192 
+  Installing       : lcms2-2.12-3.el9.x86_    15/192 
+  Installing       : gstreamer1-1.22.12-3.    16/192 
+  Installing       : atk-2.36.0-5.el9.x86_    17/192 
+  Installing       : polkit-libs-0.117-14.    18/192 
+  Installing       : hwdata-0.348-9.20.el9    19/192 
+  Running scriptlet: polkit-0.117-14.el9.x    20/192 
+  Installing       : polkit-0.117-14.el9.x    20/192 
+  Running scriptlet: polkit-0.117-14.el9.x    20/192 
+  Installing       : polkit-pkla-compat-0.    21/192 
+  Installing       : libwayland-cursor-1.2    22/192 
+  Installing       : cups-libs-1:2.3.3op2-    23/192 
+  Running scriptlet: xml-common-0.6.3-58.e    24/192 
+  Installing       : xml-common-0.6.3-58.e    24/192 
+  Installing       : pixman-0.40.0-6.el9.x    25/192 
+  Installing       : libwayland-server-1.2    26/192 
+  Installing       : libwayland-egl-1.21.0    27/192 
+  Installing       : libglvnd-1:1.3.4-1.el    28/192 
+  Installing       : libXau-1.0.9-8.el9.x8    29/192 
+  Installing       : libxcb-1.13.1-9.el9.x    30/192 
+  Installing       : fribidi-1.0.10-6.el9.    31/192 
+  Installing       : dconf-0.40.0-6.el9.x8    32/192 
+  Running scriptlet: dconf-0.40.0-6.el9.x8    32/192 
+  Installing       : libusbx-1.0.26-1.el9.    33/192 
+  Installing       : libtdb-1.4.14-1.el9.x    34/192 
+  Installing       : libproxy-0.4.15-35.el    35/192 
+  Installing       : libgudev-237-1.el9.x8    36/192 
+  Installing       : libbrotli-1.0.9-7.el9    37/192 
+  Installing       : fuse-libs-2.9.9-17.el    38/192 
+  Installing       : libgusb-0.3.8-2.el9.x    39/192 
+  Installing       : colord-libs-1.4.5-4.e    40/192 
+  Installing       : iso-codes-4.6.0-3.el9    41/192 
+  Running scriptlet: rtkit-0.11-29.el9.x86    42/192 
+  Installing       : rtkit-0.11-29.el9.x86    42/192 
+  Running scriptlet: rtkit-0.11-29.el9.x86    42/192 
+Created symlink /etc/systemd/system/graphical.target.wants/rtkit-daemon.service → /usr/lib/systemd/system/rtkit-daemon.service.
+
+  Installing       : libpciaccess-0.16-7.e    43/192 
+  Installing       : libdrm-2.4.123-2.el9.    44/192 
+  Installing       : osinfo-db-20250606-1.    45/192 
+  Installing       : webkit2gtk3-jsc-2.50.    46/192 
+  Installing       : libproxy-webkitgtk4-0    47/192 
+  Installing       : nss-softokn-freebl-3.    48/192 
+  Installing       : nss-softokn-3.112.0-4    49/192 
+  Installing       : nss-3.112.0-4.el9.x86    50/192 
+  Running scriptlet: nss-3.112.0-4.el9.x86    50/192 
+  Installing       : nss-sysinit-3.112.0-4    51/192 
+  Installing       : avahi-glib-0.8-23.el9    52/192 
+  Installing       : flac-libs-1.3.3-12.el    53/192 
+  Installing       : libtheora-1:1.1.1-31.    54/192 
+  Installing       : exiv2-libs-0.27.5-2.e    55/192 
+  Installing       : exiv2-0.27.5-2.el9.x8    56/192 
+  Installing       : libgexiv2-0.14.3-1.el    57/192 
+  Installing       : device-mapper-libs-9:    58/192 
+  Installing       : device-mapper-9:1.02.    59/192 
+  Installing       : cryptsetup-libs-2.8.1    60/192 
+  Installing       : xkeyboard-config-2.33    61/192 
+  Installing       : libxkbcommon-1.0.3-4.    62/192 
+  Installing       : xdg-dbus-proxy-0.1.3-    63/192 
+  Installing       : webrtc-audio-processi    64/192 
+  Installing       : totem-pl-parser-3.26.    65/192 
+  Installing       : spirv-tools-libs-2025    66/192 
+  Installing       : sound-theme-freedeskt    67/192 
+  Running scriptlet: sound-theme-freedeskt    67/192 
+  Installing       : poppler-data-0.4.9-9.    68/192 
+  Installing       : p11-kit-server-0.25.3    69/192 
+  Installing       : orc-0.4.31-8.el9.x86_    70/192 
+  Installing       : openjpeg2-2.4.0-8.el9    71/192 
+  Installing       : mesa-filesystem-25.0.    72/192 
+  Installing       : lua-posix-35.0-8.el9.    73/192 
+  Installing       : lua-5.4.4-4.el9.x86_6    74/192 
+  Installing       : copy-jdk-configs-4.0-    75/192 
+  Installing       : low-memory-monitor-2.    76/192 
+  Running scriptlet: low-memory-monitor-2.    76/192 
+Created symlink /etc/systemd/system/basic.target.wants/low-memory-monitor.service → /usr/lib/systemd/system/low-memory-monitor.service.
+
+  Installing       : llvm-filesystem-20.1.    77/192 
+  Installing       : llvm-libs-20.1.8-3.el    78/192 
+  Installing       : libxslt-1.1.34-12.el9    79/192 
+  Installing       : libxshmfence-1.3-10.e    80/192 
+  Installing       : libglvnd-egl-1:1.3.4-    81/192 
+  Installing       : mesa-dri-drivers-25.0    82/192 
+  Installing       : mesa-libgbm-25.0.7-2.    83/192 
+  Installing       : mesa-libEGL-25.0.7-2.    84/192 
+  Installing       : libwebp-1.2.0-8.el9.x    85/192 
+  Installing       : libsbc-1.4-9.el9.x86_    86/192 
+  Installing       : libldac-2.0.2.3-10.el    87/192 
+  Installing       : libiptcdata-1.0.5-10.    88/192 
+  Installing       : libfontenc-1.1.3-17.e    89/192 
+  Installing       : libexif-0.6.22-6.el9.    90/192 
+  Installing       : libepoxy-1.5.5-4.el9.    91/192 
+  Installing       : libdatrie-0.2.13-4.el    92/192 
+  Installing       : libthai-0.1.28-8.el9.    93/192 
+  Installing       : libasyncns-0.8-22.el9    94/192 
+  Installing       : libX11-common-1.8.12-    95/192 
+  Installing       : libX11-1.8.12-1.el9.x    96/192 
+  Installing       : libXext-1.3.4-8.el9.x    97/192 
+  Installing       : libXrender-0.9.10-16.    98/192 
+  Installing       : libXi-1.7.10-8.el9.x8    99/192 
+  Installing       : libXfixes-5.0.3-16.el   100/192 
+  Installing       : libXtst-1.2.3-16.el9.   101/192 
+  Installing       : libXcomposite-0.4.5-7   102/192 
+  Installing       : at-spi2-core-2.40.3-1   103/192 
+  Installing       : at-spi2-atk-2.38.0-4.   104/192 
+  Installing       : libXcursor-1.2.0-7.el   105/192 
+  Installing       : libXdamage-1.1.5-7.el   106/192 
+  Installing       : libXrandr-1.5.2-8.el9   107/192 
+  Installing       : libXinerama-1.1.4-10.   108/192 
+  Installing       : libXv-1.0.11-16.el9.x   109/192 
+  Installing       : libXxf86vm-1.1.4-18.e   110/192 
+  Installing       : libglvnd-glx-1:1.3.4-   111/192 
+  Installing       : mesa-libGL-25.0.7-2.e   112/192 
+  Installing       : jbigkit-libs-2.1-23.e   113/192 
+  Installing       : libtiff-4.4.0-15.el9.   114/192 
+  Installing       : javapackages-filesyst   115/192 
+  Installing       : hicolor-icon-theme-0.   116/192 
+  Installing       : gsm-1.0.19-6.el9.x86_   117/192 
+  Installing       : libsndfile-1.0.31-9.e   118/192 
+  Installing       : pulseaudio-libs-15.0-   119/192 
+  Installing       : libcanberra-0.30-27.e   120/192 
+  Running scriptlet: libcanberra-0.30-27.e   120/192 
+  Installing       : graphene-1.10.6-2.el9   121/192 
+  Installing       : giflib-5.2.1-9.el9.x8   122/192 
+  Installing       : flatpak-session-helpe   123/192 
+  Installing       : fdk-aac-free-2.0.0-8.   124/192 
+  Installing       : exempi-2.6.0-0.2.2021   125/192 
+  Installing       : composefs-libs-1.0.8-   126/192 
+  Installing       : ostree-libs-2025.6-1.   127/192 
+  Installing       : adwaita-cursor-theme-   128/192 
+  Installing       : adwaita-icon-theme-40   129/192 
+  Installing       : abattis-cantarell-fon   130/192 
+  Installing       : shared-mime-info-2.1-   131/192 
+  Running scriptlet: shared-mime-info-2.1-   131/192 
+  Installing       : gdk-pixbuf2-2.42.6-6.   132/192 
+  Installing       : gdk-pixbuf2-modules-2   133/192 
+  Installing       : gtk-update-icon-cache   134/192 
+  Installing       : libgsf-1.14.47-5.el9.   135/192 
+  Installing       : libnotify-0.7.9-8.el9   136/192 
+  Installing       : lksctp-tools-1.0.19-2   137/192 
+  Installing       : java-11-openjdk-headl   138/192 
+  Running scriptlet: java-11-openjdk-headl   138/192 
+  Installing       : kmod-28-11.el9.x86_64   139/192 
+  Installing       : kbd-misc-2.4.0-11.el9   140/192 
+  Installing       : kbd-legacy-2.4.0-11.e   141/192 
+  Installing       : kbd-2.4.0-11.el9.x86_   142/192 
+  Installing       : systemd-udev-252-55.e   143/192 
+  Running scriptlet: systemd-udev-252-55.e   143/192 
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-boot-update.service → /usr/lib/systemd/system/systemd-boot-update.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /usr/lib/systemd/system/systemd-pstore.service.
+
+  Installing       : graphite2-1.3.14-9.el   144/192 
+  Installing       : harfbuzz-2.7.4-10.el9   145/192 
+  Installing       : freetype-2.10.4-11.el   146/192 
+  Installing       : fontconfig-2.14.0-2.e   147/192 
+  Running scriptlet: fontconfig-2.14.0-2.e   147/192 
+  Installing       : cairo-1.17.4-7.el9.x8   148/192 
+  Installing       : cairo-gobject-1.17.4-   149/192 
+  Installing       : libgxps-0.3.2-3.el9.x   150/192 
+  Installing       : libXft-2.3.3-8.el9.x8   151/192 
+  Installing       : pango-1.48.7-3.el9.x8   152/192 
+  Installing       : gstreamer1-plugins-ba   153/192 
+  Installing       : librsvg2-2.50.7-3.el9   154/192 
+  Installing       : poppler-21.01.0-21.el   155/192 
+  Installing       : poppler-glib-21.01.0-   156/192 
+  Installing       : mkfontscale-1.2.1-3.e   157/192 
+  Installing       : ttmkfdir-3.0.9-65.el9   158/192 
+  Installing       : xorg-x11-fonts-Type1-   159/192 
+  Running scriptlet: xorg-x11-fonts-Type1-   159/192 
+  Installing       : gobject-introspection   160/192 
+  Installing       : upower-0.99.11-11.el9   161/192 
+  Running scriptlet: upower-0.99.11-11.el9   161/192 
+Created symlink /etc/systemd/system/graphical.target.wants/upower.service → /usr/lib/systemd/system/upower.service.
+
+  Installing       : fuse-common-3.10.2-9.   162/192 
+  Installing       : fuse-2.9.9-17.el9.x86   163/192 
+  Installing       : bubblewrap-0.6.3-1.el   164/192 
+  Installing       : bluez-libs-5.72-4.el9   165/192 
+  Running scriptlet: pipewire-1.0.1-1.el9.   166/192 
+  Installing       : pipewire-1.0.1-1.el9.   166/192 
+  Running scriptlet: pipewire-1.0.1-1.el9.   166/192 
+Created symlink /etc/systemd/user/sockets.target.wants/pipewire.socket → /usr/lib/systemd/user/pipewire.socket.
+
+  Installing       : pipewire-libs-1.0.1-1   167/192 
+  Installing       : wireplumber-0.4.14-1.   168/192 
+  Installing       : wireplumber-libs-0.4.   169/192 
+  Installing       : pipewire-jack-audio-c   170/192 
+  Installing       : adobe-source-code-pro   171/192 
+  Installing       : gsettings-desktop-sch   172/192 
+  Installing       : glib-networking-2.68.   173/192 
+  Installing       : libsoup-2.72.0-10.el9   174/192 
+  Installing       : libappstream-glib-0.7   175/192 
+  Installing       : osinfo-db-tools-1.10.   176/192 
+  Installing       : libosinfo-1.10.0-1.el   177/192 
+  Installing       : NetworkManager-libnm-   178/192 
+  Installing       : libtracker-sparql-3.1   179/192 
+  Installing       : tracker-3.1.2-3.el9.x   180/192 
+  Running scriptlet: tracker-3.1.2-3.el9.x   180/192 
+  Installing       : tracker-miners-3.1.2-   181/192 
+  Running scriptlet: tracker-miners-3.1.2-   181/192 
+  Installing       : ModemManager-glib-1.2   182/192 
+  Running scriptlet: geoclue2-2.6.0-7.el9.   183/192 
+  Installing       : geoclue2-2.6.0-7.el9.   183/192 
+  Running scriptlet: geoclue2-2.6.0-7.el9.   183/192 
+  Running scriptlet: flatpak-1.12.9-4.el9.   184/192 
+  Installing       : flatpak-1.12.9-4.el9.   184/192 
+  Installing       : xdg-desktop-portal-1.   185/192 
+  Running scriptlet: xdg-desktop-portal-1.   185/192 
+  Installing       : libcanberra-gtk3-0.30   186/192 
+  Installing       : gtk3-3.24.31-8.el9.x8   187/192 
+  Installing       : xdg-desktop-portal-gt   188/192 
+  Running scriptlet: xdg-desktop-portal-gt   188/192 
+  Installing       : java-11-openjdk-1:11.   189/192 
+  Running scriptlet: java-11-openjdk-1:11.   189/192 
+  Installing       : pipewire-jack-audio-c   190/192 
+  Installing       : pipewire-alsa-1.0.1-1   191/192 
+  Installing       : pipewire-pulseaudio-1   192/192 
+  Running scriptlet: pipewire-pulseaudio-1   192/192 
+Created symlink /etc/systemd/user/sockets.target.wants/pipewire-pulse.socket → /usr/lib/systemd/user/pipewire-pulse.socket.
+
+  Running scriptlet: dconf-0.40.0-6.el9.x8   192/192 
+  Running scriptlet: nss-3.112.0-4.el9.x86   192/192 
+  Running scriptlet: copy-jdk-configs-4.0-   192/192 
+  Running scriptlet: java-11-openjdk-headl   192/192 
+  Running scriptlet: fontconfig-2.14.0-2.e   192/192 
+  Running scriptlet: wireplumber-0.4.14-1.   192/192 
+Created symlink /etc/systemd/user/pipewire-session-manager.service → /usr/lib/systemd/user/wireplumber.service.
+Created symlink /etc/systemd/user/pipewire.service.wants/wireplumber.service → /usr/lib/systemd/user/wireplumber.service.
+
+  Running scriptlet: java-11-openjdk-1:11.   192/192 
+  Running scriptlet: pipewire-pulseaudio-1   192/192 
+  Verifying        : ModemManager-glib-1.2     1/192 
+  Verifying        : NetworkManager-libnm-     2/192 
+  Verifying        : adobe-source-code-pro     3/192 
+  Verifying        : avahi-libs-0.8-23.el9     4/192 
+  Verifying        : bluez-libs-5.72-4.el9     5/192 
+  Verifying        : bubblewrap-0.6.3-1.el     6/192 
+  Verifying        : cryptsetup-libs-2.8.1     7/192 
+  Verifying        : cups-libs-1:2.3.3op2-     8/192 
+  Verifying        : device-mapper-9:1.02.     9/192 
+  Verifying        : device-mapper-libs-9:    10/192 
+  Verifying        : freetype-2.10.4-11.el    11/192 
+  Verifying        : fuse-2.9.9-17.el9.x86    12/192 
+  Verifying        : fuse-common-3.10.2-9.    13/192 
+  Verifying        : fuse-libs-2.9.9-17.el    14/192 
+  Verifying        : glib-networking-2.68.    15/192 
+  Verifying        : gobject-introspection    16/192 
+  Verifying        : graphite2-1.3.14-9.el    17/192 
+  Verifying        : gsettings-desktop-sch    18/192 
+  Verifying        : harfbuzz-2.7.4-10.el9    19/192 
+  Verifying        : hwdata-0.348-9.20.el9    20/192 
+  Verifying        : json-glib-1.6.6-1.el9    21/192 
+  Verifying        : kbd-2.4.0-11.el9.x86_    22/192 
+  Verifying        : kbd-legacy-2.4.0-11.e    23/192 
+  Verifying        : kbd-misc-2.4.0-11.el9    24/192 
+  Verifying        : kmod-28-11.el9.x86_64    25/192 
+  Verifying        : libbrotli-1.0.9-7.el9    26/192 
+  Verifying        : libgudev-237-1.el9.x8    27/192 
+  Verifying        : libgusb-0.3.8-2.el9.x    28/192 
+  Verifying        : libicu-67.1-10.el9.x8    29/192 
+  Verifying        : libpciaccess-0.16-7.e    30/192 
+  Verifying        : libpng-2:1.6.37-12.el    31/192 
+  Verifying        : libproxy-0.4.15-35.el    32/192 
+  Verifying        : libtdb-1.4.14-1.el9.x    33/192 
+  Verifying        : libusbx-1.0.26-1.el9.    34/192 
+  Verifying        : lksctp-tools-1.0.19-2    35/192 
+  Verifying        : polkit-0.117-14.el9.x    36/192 
+  Verifying        : polkit-libs-0.117-14.    37/192 
+  Verifying        : polkit-pkla-compat-0.    38/192 
+  Verifying        : shared-mime-info-2.1-    39/192 
+  Verifying        : systemd-udev-252-55.e    40/192 
+  Verifying        : abattis-cantarell-fon    41/192 
+  Verifying        : adwaita-cursor-theme-    42/192 
+  Verifying        : adwaita-icon-theme-40    43/192 
+  Verifying        : alsa-lib-1.2.14-1.el9    44/192 
+  Verifying        : at-spi2-atk-2.38.0-4.    45/192 
+  Verifying        : at-spi2-core-2.40.3-1    46/192 
+  Verifying        : atk-2.36.0-5.el9.x86_    47/192 
+  Verifying        : avahi-glib-0.8-23.el9    48/192 
+  Verifying        : cairo-1.17.4-7.el9.x8    49/192 
+  Verifying        : cairo-gobject-1.17.4-    50/192 
+  Verifying        : colord-libs-1.4.5-4.e    51/192 
+  Verifying        : composefs-libs-1.0.8-    52/192 
+  Verifying        : copy-jdk-configs-4.0-    53/192 
+  Verifying        : dconf-0.40.0-6.el9.x8    54/192 
+  Verifying        : exempi-2.6.0-0.2.2021    55/192 
+  Verifying        : exiv2-0.27.5-2.el9.x8    56/192 
+  Verifying        : exiv2-libs-0.27.5-2.e    57/192 
+  Verifying        : fdk-aac-free-2.0.0-8.    58/192 
+  Verifying        : flac-libs-1.3.3-12.el    59/192 
+  Verifying        : flatpak-1.12.9-4.el9.    60/192 
+  Verifying        : flatpak-session-helpe    61/192 
+  Verifying        : fontconfig-2.14.0-2.e    62/192 
+  Verifying        : fribidi-1.0.10-6.el9.    63/192 
+  Verifying        : gdk-pixbuf2-2.42.6-6.    64/192 
+  Verifying        : gdk-pixbuf2-modules-2    65/192 
+  Verifying        : geoclue2-2.6.0-7.el9.    66/192 
+  Verifying        : giflib-5.2.1-9.el9.x8    67/192 
+  Verifying        : graphene-1.10.6-2.el9    68/192 
+  Verifying        : gsm-1.0.19-6.el9.x86_    69/192 
+  Verifying        : gstreamer1-1.22.12-3.    70/192 
+  Verifying        : gstreamer1-plugins-ba    71/192 
+  Verifying        : gtk-update-icon-cache    72/192 
+  Verifying        : gtk3-3.24.31-8.el9.x8    73/192 
+  Verifying        : hicolor-icon-theme-0.    74/192 
+  Verifying        : iso-codes-4.6.0-3.el9    75/192 
+  Verifying        : java-11-openjdk-1:11.    76/192 
+  Verifying        : java-11-openjdk-headl    77/192 
+  Verifying        : javapackages-filesyst    78/192 
+  Verifying        : jbigkit-libs-2.1-23.e    79/192 
+  Verifying        : lcms2-2.12-3.el9.x86_    80/192 
+  Verifying        : libX11-1.8.12-1.el9.x    81/192 
+  Verifying        : libX11-common-1.8.12-    82/192 
+  Verifying        : libX11-xcb-1.8.12-1.e    83/192 
+  Verifying        : libXau-1.0.9-8.el9.x8    84/192 
+  Verifying        : libXcomposite-0.4.5-7    85/192 
+  Verifying        : libXcursor-1.2.0-7.el    86/192 
+  Verifying        : libXdamage-1.1.5-7.el    87/192 
+  Verifying        : libXext-1.3.4-8.el9.x    88/192 
+  Verifying        : libXfixes-5.0.3-16.el    89/192 
+  Verifying        : libXft-2.3.3-8.el9.x8    90/192 
+  Verifying        : libXi-1.7.10-8.el9.x8    91/192 
+  Verifying        : libXinerama-1.1.4-10.    92/192 
+  Verifying        : libXrandr-1.5.2-8.el9    93/192 
+  Verifying        : libXrender-0.9.10-16.    94/192 
+  Verifying        : libXtst-1.2.3-16.el9.    95/192 
+  Verifying        : libXv-1.0.11-16.el9.x    96/192 
+  Verifying        : libXxf86vm-1.1.4-18.e    97/192 
+  Verifying        : libappstream-glib-0.7    98/192 
+  Verifying        : libasyncns-0.8-22.el9    99/192 
+  Verifying        : libcanberra-0.30-27.e   100/192 
+  Verifying        : libcanberra-gtk3-0.30   101/192 
+  Verifying        : libdatrie-0.2.13-4.el   102/192 
+  Verifying        : libdrm-2.4.123-2.el9.   103/192 
+  Verifying        : libepoxy-1.5.5-4.el9.   104/192 
+  Verifying        : libexif-0.6.22-6.el9.   105/192 
+  Verifying        : libfontenc-1.1.3-17.e   106/192 
+  Verifying        : libgexiv2-0.14.3-1.el   107/192 
+  Verifying        : libglvnd-1:1.3.4-1.el   108/192 
+  Verifying        : libglvnd-egl-1:1.3.4-   109/192 
+  Verifying        : libglvnd-glx-1:1.3.4-   110/192 
+  Verifying        : libgsf-1.14.47-5.el9.   111/192 
+  Verifying        : libgxps-0.3.2-3.el9.x   112/192 
+  Verifying        : libiptcdata-1.0.5-10.   113/192 
+  Verifying        : libjpeg-turbo-2.0.90-   114/192 
+  Verifying        : libldac-2.0.2.3-10.el   115/192 
+  Verifying        : libnotify-0.7.9-8.el9   116/192 
+  Verifying        : libogg-2:1.3.4-6.el9.   117/192 
+  Verifying        : libosinfo-1.10.0-1.el   118/192 
+  Verifying        : libproxy-webkitgtk4-0   119/192 
+  Verifying        : librsvg2-2.50.7-3.el9   120/192 
+  Verifying        : libsbc-1.4-9.el9.x86_   121/192 
+  Verifying        : libsndfile-1.0.31-9.e   122/192 
+  Verifying        : libsoup-2.72.0-10.el9   123/192 
+  Verifying        : libstemmer-0-18.585sv   124/192 
+  Verifying        : libthai-0.1.28-8.el9.   125/192 
+  Verifying        : libtheora-1:1.1.1-31.   126/192 
+  Verifying        : libtiff-4.4.0-15.el9.   127/192 
+  Verifying        : libtracker-sparql-3.1   128/192 
+  Verifying        : libvorbis-1:1.3.7-5.e   129/192 
+  Verifying        : libwayland-client-1.2   130/192 
+  Verifying        : libwayland-cursor-1.2   131/192 
+  Verifying        : libwayland-egl-1.21.0   132/192 
+  Verifying        : libwayland-server-1.2   133/192 
+  Verifying        : libwebp-1.2.0-8.el9.x   134/192 
+  Verifying        : libxcb-1.13.1-9.el9.x   135/192 
+  Verifying        : libxkbcommon-1.0.3-4.   136/192 
+  Verifying        : libxshmfence-1.3-10.e   137/192 
+  Verifying        : libxslt-1.1.34-12.el9   138/192 
+  Verifying        : llvm-filesystem-20.1.   139/192 
+  Verifying        : llvm-libs-20.1.8-3.el   140/192 
+  Verifying        : low-memory-monitor-2.   141/192 
+  Verifying        : lua-5.4.4-4.el9.x86_6   142/192 
+  Verifying        : lua-posix-35.0-8.el9.   143/192 
+  Verifying        : mesa-dri-drivers-25.0   144/192 
+  Verifying        : mesa-filesystem-25.0.   145/192 
+  Verifying        : mesa-libEGL-25.0.7-2.   146/192 
+  Verifying        : mesa-libGL-25.0.7-2.e   147/192 
+  Verifying        : mesa-libgbm-25.0.7-2.   148/192 
+  Verifying        : mkfontscale-1.2.1-3.e   149/192 
+  Verifying        : nspr-4.36.0-4.el9.x86   150/192 
+  Verifying        : nss-3.112.0-4.el9.x86   151/192 
+  Verifying        : nss-softokn-3.112.0-4   152/192 
+  Verifying        : nss-softokn-freebl-3.   153/192 
+  Verifying        : nss-sysinit-3.112.0-4   154/192 
+  Verifying        : nss-util-3.112.0-4.el   155/192 
+  Verifying        : openjpeg2-2.4.0-8.el9   156/192 
+  Verifying        : opus-1.3.1-10.el9.x86   157/192 
+  Verifying        : orc-0.4.31-8.el9.x86_   158/192 
+  Verifying        : osinfo-db-20250606-1.   159/192 
+  Verifying        : osinfo-db-tools-1.10.   160/192 
+  Verifying        : ostree-libs-2025.6-1.   161/192 
+  Verifying        : p11-kit-server-0.25.3   162/192 
+  Verifying        : pango-1.48.7-3.el9.x8   163/192 
+  Verifying        : pipewire-1.0.1-1.el9.   164/192 
+  Verifying        : pipewire-alsa-1.0.1-1   165/192 
+  Verifying        : pipewire-jack-audio-c   166/192 
+  Verifying        : pipewire-jack-audio-c   167/192 
+  Verifying        : pipewire-libs-1.0.1-1   168/192 
+  Verifying        : pipewire-pulseaudio-1   169/192 
+  Verifying        : pixman-0.40.0-6.el9.x   170/192 
+  Verifying        : poppler-21.01.0-21.el   171/192 
+  Verifying        : poppler-data-0.4.9-9.   172/192 
+  Verifying        : poppler-glib-21.01.0-   173/192 
+  Verifying        : pulseaudio-libs-15.0-   174/192 
+  Verifying        : rtkit-0.11-29.el9.x86   175/192 
+  Verifying        : sound-theme-freedeskt   176/192 
+  Verifying        : spirv-tools-libs-2025   177/192 
+  Verifying        : totem-pl-parser-3.26.   178/192 
+  Verifying        : tracker-3.1.2-3.el9.x   179/192 
+  Verifying        : tracker-miners-3.1.2-   180/192 
+  Verifying        : ttmkfdir-3.0.9-65.el9   181/192 
+  Verifying        : upower-0.99.11-11.el9   182/192 
+  Verifying        : webkit2gtk3-jsc-2.50.   183/192 
+  Verifying        : webrtc-audio-processi   184/192 
+  Verifying        : wireplumber-0.4.14-1.   185/192 
+  Verifying        : wireplumber-libs-0.4.   186/192 
+  Verifying        : xdg-dbus-proxy-0.1.3-   187/192 
+  Verifying        : xdg-desktop-portal-1.   188/192 
+  Verifying        : xdg-desktop-portal-gt   189/192 
+  Verifying        : xkeyboard-config-2.33   190/192 
+  Verifying        : xml-common-0.6.3-58.e   191/192 
+  Verifying        : xorg-x11-fonts-Type1-   192/192 
+
+Installed:
+  ModemManager-glib-1.20.2-1.el9.x86_64              
+  NetworkManager-libnm-1:1.54.1-1.el9.x86_64         
+  abattis-cantarell-fonts-0.301-4.el9.noarch         
+  adobe-source-code-pro-fonts-2.030.1.050-12.el9.1.noarch
+  adwaita-cursor-theme-40.1.1-3.el9.noarch           
+  adwaita-icon-theme-40.1.1-3.el9.noarch             
+  alsa-lib-1.2.14-1.el9.x86_64                       
+  at-spi2-atk-2.38.0-4.el9.x86_64                    
+  at-spi2-core-2.40.3-1.el9.x86_64                   
+  atk-2.36.0-5.el9.x86_64                            
+  avahi-glib-0.8-23.el9.x86_64                       
+  avahi-libs-0.8-23.el9.x86_64                       
+  bluez-libs-5.72-4.el9.x86_64                       
+  bubblewrap-0.6.3-1.el9.x86_64                      
+  cairo-1.17.4-7.el9.x86_64                          
+  cairo-gobject-1.17.4-7.el9.x86_64                  
+  colord-libs-1.4.5-4.el9.x86_64                     
+  composefs-libs-1.0.8-1.el9.x86_64                  
+  copy-jdk-configs-4.0-3.el9.noarch                  
+  cryptsetup-libs-2.8.1-2.el9.x86_64                 
+  cups-libs-1:2.3.3op2-35.el9.x86_64                 
+  dconf-0.40.0-6.el9.x86_64                          
+  device-mapper-9:1.02.206-2.el9.x86_64              
+  device-mapper-libs-9:1.02.206-2.el9.x86_64         
+  exempi-2.6.0-0.2.20211007gite23c213.el9.x86_64     
+  exiv2-0.27.5-2.el9.x86_64                          
+  exiv2-libs-0.27.5-2.el9.x86_64                     
+  fdk-aac-free-2.0.0-8.el9.x86_64                    
+  flac-libs-1.3.3-12.el9.x86_64                      
+  flatpak-1.12.9-4.el9.x86_64                        
+  flatpak-session-helper-1.12.9-4.el9.x86_64         
+  fontconfig-2.14.0-2.el9.x86_64                     
+  freetype-2.10.4-11.el9.x86_64                      
+  fribidi-1.0.10-6.el9.2.x86_64                      
+  fuse-2.9.9-17.el9.x86_64                           
+  fuse-common-3.10.2-9.el9.x86_64                    
+  fuse-libs-2.9.9-17.el9.x86_64                      
+  gdk-pixbuf2-2.42.6-6.el9.x86_64                    
+  gdk-pixbuf2-modules-2.42.6-6.el9.x86_64            
+  geoclue2-2.6.0-7.el9.x86_64                        
+  giflib-5.2.1-9.el9.x86_64                          
+  glib-networking-2.68.3-3.el9.x86_64                
+  gobject-introspection-1.68.0-11.el9.x86_64         
+  graphene-1.10.6-2.el9.x86_64                       
+  graphite2-1.3.14-9.el9.x86_64                      
+  gsettings-desktop-schemas-40.0-8.el9.x86_64        
+  gsm-1.0.19-6.el9.x86_64                            
+  gstreamer1-1.22.12-3.el9.x86_64                    
+  gstreamer1-plugins-base-1.22.12-4.el9.x86_64       
+  gtk-update-icon-cache-3.24.31-8.el9.x86_64         
+  gtk3-3.24.31-8.el9.x86_64                          
+  harfbuzz-2.7.4-10.el9.x86_64                       
+  hicolor-icon-theme-0.17-13.el9.noarch              
+  hwdata-0.348-9.20.el9.noarch                       
+  iso-codes-4.6.0-3.el9.noarch                       
+  java-11-openjdk-1:11.0.20.1.1-2.el9.x86_64         
+  java-11-openjdk-headless-1:11.0.20.1.1-2.el9.x86_64
+  javapackages-filesystem-6.4.0-1.el9.noarch         
+  jbigkit-libs-2.1-23.el9.x86_64                     
+  json-glib-1.6.6-1.el9.x86_64                       
+  kbd-2.4.0-11.el9.x86_64                            
+  kbd-legacy-2.4.0-11.el9.noarch                     
+  kbd-misc-2.4.0-11.el9.noarch                       
+  kmod-28-11.el9.x86_64                              
+  lcms2-2.12-3.el9.x86_64                            
+  libX11-1.8.12-1.el9.x86_64                         
+  libX11-common-1.8.12-1.el9.noarch                  
+  libX11-xcb-1.8.12-1.el9.x86_64                     
+  libXau-1.0.9-8.el9.x86_64                          
+  libXcomposite-0.4.5-7.el9.x86_64                   
+  libXcursor-1.2.0-7.el9.x86_64                      
+  libXdamage-1.1.5-7.el9.x86_64                      
+  libXext-1.3.4-8.el9.x86_64                         
+  libXfixes-5.0.3-16.el9.x86_64                      
+  libXft-2.3.3-8.el9.x86_64                          
+  libXi-1.7.10-8.el9.x86_64                          
+  libXinerama-1.1.4-10.el9.x86_64                    
+  libXrandr-1.5.2-8.el9.x86_64                       
+  libXrender-0.9.10-16.el9.x86_64                    
+  libXtst-1.2.3-16.el9.x86_64                        
+  libXv-1.0.11-16.el9.x86_64                         
+  libXxf86vm-1.1.4-18.el9.x86_64                     
+  libappstream-glib-0.7.18-5.el9.x86_64              
+  libasyncns-0.8-22.el9.x86_64                       
+  libbrotli-1.0.9-7.el9.x86_64                       
+  libcanberra-0.30-27.el9.x86_64                     
+  libcanberra-gtk3-0.30-27.el9.x86_64                
+  libdatrie-0.2.13-4.el9.x86_64                      
+  libdrm-2.4.123-2.el9.x86_64                        
+  libepoxy-1.5.5-4.el9.x86_64                        
+  libexif-0.6.22-6.el9.x86_64                        
+  libfontenc-1.1.3-17.el9.x86_64                     
+  libgexiv2-0.14.3-1.el9.x86_64                      
+  libglvnd-1:1.3.4-1.el9.x86_64                      
+  libglvnd-egl-1:1.3.4-1.el9.x86_64                  
+  libglvnd-glx-1:1.3.4-1.el9.x86_64                  
+  libgsf-1.14.47-5.el9.x86_64                        
+  libgudev-237-1.el9.x86_64                          
+  libgusb-0.3.8-2.el9.x86_64                         
+  libgxps-0.3.2-3.el9.x86_64                         
+  libicu-67.1-10.el9.x86_64                          
+  libiptcdata-1.0.5-10.el9.x86_64                    
+  libjpeg-turbo-2.0.90-7.el9.x86_64                  
+  libldac-2.0.2.3-10.el9.x86_64                      
+  libnotify-0.7.9-8.el9.x86_64                       
+  libogg-2:1.3.4-6.el9.x86_64                        
+  libosinfo-1.10.0-1.el9.x86_64                      
+  libpciaccess-0.16-7.el9.x86_64                     
+  libpng-2:1.6.37-12.el9.x86_64                      
+  libproxy-0.4.15-35.el9.x86_64                      
+  libproxy-webkitgtk4-0.4.15-35.el9.x86_64           
+  librsvg2-2.50.7-3.el9.x86_64                       
+  libsbc-1.4-9.el9.x86_64                            
+  libsndfile-1.0.31-9.el9.x86_64                     
+  libsoup-2.72.0-10.el9.x86_64                       
+  libstemmer-0-18.585svn.el9.x86_64                  
+  libtdb-1.4.14-1.el9.x86_64                         
+  libthai-0.1.28-8.el9.x86_64                        
+  libtheora-1:1.1.1-31.el9.x86_64                    
+  libtiff-4.4.0-15.el9.x86_64                        
+  libtracker-sparql-3.1.2-3.el9.x86_64               
+  libusbx-1.0.26-1.el9.x86_64                        
+  libvorbis-1:1.3.7-5.el9.x86_64                     
+  libwayland-client-1.21.0-1.el9.x86_64              
+  libwayland-cursor-1.21.0-1.el9.x86_64              
+  libwayland-egl-1.21.0-1.el9.x86_64                 
+  libwayland-server-1.21.0-1.el9.x86_64              
+  libwebp-1.2.0-8.el9.x86_64                         
+  libxcb-1.13.1-9.el9.x86_64                         
+  libxkbcommon-1.0.3-4.el9.x86_64                    
+  libxshmfence-1.3-10.el9.x86_64                     
+  libxslt-1.1.34-12.el9.x86_64                       
+  lksctp-tools-1.0.19-2.el9.x86_64                   
+  llvm-filesystem-20.1.8-3.el9.x86_64                
+  llvm-libs-20.1.8-3.el9.x86_64                      
+  low-memory-monitor-2.1-4.el9.x86_64                
+  lua-5.4.4-4.el9.x86_64                             
+  lua-posix-35.0-8.el9.x86_64                        
+  mesa-dri-drivers-25.0.7-2.el9.x86_64               
+  mesa-filesystem-25.0.7-2.el9.x86_64                
+  mesa-libEGL-25.0.7-2.el9.x86_64                    
+  mesa-libGL-25.0.7-2.el9.x86_64                     
+  mesa-libgbm-25.0.7-2.el9.x86_64                    
+  mkfontscale-1.2.1-3.el9.x86_64                     
+  nspr-4.36.0-4.el9.x86_64                           
+  nss-3.112.0-4.el9.x86_64                           
+  nss-softokn-3.112.0-4.el9.x86_64                   
+  nss-softokn-freebl-3.112.0-4.el9.x86_64            
+  nss-sysinit-3.112.0-4.el9.x86_64                   
+  nss-util-3.112.0-4.el9.x86_64                      
+  openjpeg2-2.4.0-8.el9.x86_64                       
+  opus-1.3.1-10.el9.x86_64                           
+  orc-0.4.31-8.el9.x86_64                            
+  osinfo-db-20250606-1.el9.noarch                    
+  osinfo-db-tools-1.10.0-1.el9.x86_64                
+  ostree-libs-2025.6-1.el9.x86_64                    
+  p11-kit-server-0.25.3-3.el9.x86_64                 
+  pango-1.48.7-3.el9.x86_64                          
+  pipewire-1.0.1-1.el9.x86_64                        
+  pipewire-alsa-1.0.1-1.el9.x86_64                   
+  pipewire-jack-audio-connection-kit-1.0.1-1.el9.x86_64
+  pipewire-jack-audio-connection-kit-libs-1.0.1-1.el9.x86_64
+  pipewire-libs-1.0.1-1.el9.x86_64                   
+  pipewire-pulseaudio-1.0.1-1.el9.x86_64             
+  pixman-0.40.0-6.el9.x86_64                         
+  polkit-0.117-14.el9.x86_64                         
+  polkit-libs-0.117-14.el9.x86_64                    
+  polkit-pkla-compat-0.1-21.el9.x86_64               
+  poppler-21.01.0-21.el9.x86_64                      
+  poppler-data-0.4.9-9.el9.noarch                    
+  poppler-glib-21.01.0-21.el9.x86_64                 
+  pulseaudio-libs-15.0-3.el9.x86_64                  
+  rtkit-0.11-29.el9.x86_64                           
+  shared-mime-info-2.1-5.el9.x86_64                  
+  sound-theme-freedesktop-0.8-17.el9.noarch          
+  spirv-tools-libs-2025.2-1.el9.x86_64               
+  systemd-udev-252-55.el9.x86_64                     
+  totem-pl-parser-3.26.6-2.el9.x86_64                
+  tracker-3.1.2-3.el9.x86_64                         
+  tracker-miners-3.1.2-4.el9.x86_64                  
+  ttmkfdir-3.0.9-65.el9.x86_64                       
+  upower-0.99.11-11.el9.x86_64                       
+  webkit2gtk3-jsc-2.50.1-1.el9.x86_64                
+  webrtc-audio-processing-0.3.1-8.el9.x86_64         
+  wireplumber-0.4.14-1.el9.x86_64                    
+  wireplumber-libs-0.4.14-1.el9.x86_64               
+  xdg-dbus-proxy-0.1.3-1.el9.x86_64                  
+  xdg-desktop-portal-1.12.6-1.el9.x86_64             
+  xdg-desktop-portal-gtk-1.12.0-3.el9.x86_64         
+  xkeyboard-config-2.33-2.el9.noarch                 
+  xml-common-0.6.3-58.el9.noarch                     
+  xorg-x11-fonts-Type1-7.5-33.el9.noarch             
+
+Complete!
+[tony@stapp01 ~]$ sudo yum install tomcat -y
+Last metadata expiration check: 0:01:05 ago on Sun Nov 23 09:42:52 2025.
+Dependencies resolved.
+=====================================================
+ Package       Arch   Version        Repo       Size
+=====================================================
+Installing:
+ tomcat        noarch 1:9.0.87-6.el9 appstream  98 k
+Installing dependencies:
+ apr           x86_64 1.7.0-12.el9   appstream 123 k
+ ecj           noarch 1:4.20-17.el9  appstream 1.9 M
+ javapackages-tools
+               noarch 6.4.0-1.el9    appstream  34 k
+ tomcat-el-3.0-api
+               noarch 1:9.0.87-6.el9 appstream 105 k
+ tomcat-jsp-2.3-api
+               noarch 1:9.0.87-6.el9 appstream  72 k
+ tomcat-lib    noarch 1:9.0.87-6.el9 appstream 6.0 M
+ tomcat-servlet-4.0-api
+               noarch 1:9.0.87-6.el9 appstream 284 k
+Installing weak dependencies:
+ tomcat-native x86_64 1:1.3.0-1.el9  epel       74 k
+
+Transaction Summary
+=====================================================
+Install  9 Packages
+
+Total download size: 8.7 M
+Installed size: 11 M
+Downloading Packages:
+(1/9): javapackages- 161 kB/s |  34 kB     00:00    
+(2/9): apr-1.7.0-12. 575 kB/s | 123 kB     00:00    
+(3/9): tomcat-9.0.87 1.0 MB/s |  98 kB     00:00    
+(4/9): tomcat-el-3.0 1.0 MB/s | 105 kB     00:00    
+(5/9): tomcat-jsp-2. 1.6 MB/s |  72 kB     00:00    
+(6/9): ecj-4.20-17.e 4.8 MB/s | 1.9 MB     00:00    
+(7/9): tomcat-native 318 kB/s |  74 kB     00:00    
+(8/9): tomcat-lib-9.  17 MB/s | 6.0 MB     00:00    
+(9/9): tomcat-servle 598 kB/s | 284 kB     00:00    
+-----------------------------------------------------
+Total                6.8 MB/s | 8.7 MB     00:01     
+Extra Packages for E 1.6 MB/s | 1.6 kB     00:00    
+Importing GPG key 0x3228467C:
+ Userid     : "Fedora (epel9) <epel@fedoraproject.org>"
+ Fingerprint: FF8A D134 4597 106E CE81 3B91 8A38 72BF 3228 467C
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+Key imported successfully
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                             1/1 
+  Installing       : tomcat-servlet-4.0-api-1:   1/9 
+  Running scriptlet: tomcat-servlet-4.0-api-1:   1/9 
+  Installing       : tomcat-el-3.0-api-1:9.0.8   2/9 
+  Running scriptlet: tomcat-el-3.0-api-1:9.0.8   2/9 
+  Installing       : javapackages-tools-6.4.0-   3/9 
+  Installing       : ecj-1:4.20-17.el9.noarch    4/9 
+  Installing       : tomcat-jsp-2.3-api-1:9.0.   5/9 
+  Running scriptlet: tomcat-jsp-2.3-api-1:9.0.   5/9 
+  Installing       : tomcat-lib-1:9.0.87-6.el9   6/9 
+  Installing       : apr-1.7.0-12.el9.x86_64     7/9 
+  Installing       : tomcat-native-1:1.3.0-1.e   8/9 
+  Running scriptlet: tomcat-1:9.0.87-6.el9.noa   9/9 
+  Installing       : tomcat-1:9.0.87-6.el9.noa   9/9 
+  Running scriptlet: tomcat-1:9.0.87-6.el9.noa   9/9 
+  Verifying        : apr-1.7.0-12.el9.x86_64     1/9 
+  Verifying        : ecj-1:4.20-17.el9.noarch    2/9 
+  Verifying        : javapackages-tools-6.4.0-   3/9 
+  Verifying        : tomcat-1:9.0.87-6.el9.noa   4/9 
+  Verifying        : tomcat-el-3.0-api-1:9.0.8   5/9 
+  Verifying        : tomcat-jsp-2.3-api-1:9.0.   6/9 
+  Verifying        : tomcat-lib-1:9.0.87-6.el9   7/9 
+  Verifying        : tomcat-servlet-4.0-api-1:   8/9 
+  Verifying        : tomcat-native-1:1.3.0-1.e   9/9 
+
+Installed:
+  apr-1.7.0-12.el9.x86_64                            
+  ecj-1:4.20-17.el9.noarch                           
+  javapackages-tools-6.4.0-1.el9.noarch              
+  tomcat-1:9.0.87-6.el9.noarch                       
+  tomcat-el-3.0-api-1:9.0.87-6.el9.noarch            
+  tomcat-jsp-2.3-api-1:9.0.87-6.el9.noarch           
+  tomcat-lib-1:9.0.87-6.el9.noarch                   
+  tomcat-native-1:1.3.0-1.el9.x86_64                 
+  tomcat-servlet-4.0-api-1:9.0.87-6.el9.noarch       
+
+Complete!
+[tony@stapp01 ~]$ sudo systemctl start tomcat
+[tony@stapp01 ~]$ sudo systemctl enable tomcat
+Created symlink /etc/systemd/system/multi-user.target.wants/tomcat.service → /usr/lib/systemd/system/tomcat.service.
+[tony@stapp01 ~]$ sudo systemctl status tomcat
+● tomcat.service - Apache Tomcat Web Application Container
+     Loaded: loaded (/usr/lib/systemd/system/tomcat.service; enabled; preset: disabled)
+     Active: active (running) since Sun 2025-11-23 09:44:50 UTC; 40s ago
+   Main PID: 5514 (java)
+      Tasks: 34 (limit: 411434)
+     Memory: 77.8M
+     CGroup: /docker/71699d04a7f3c1a71849b3eebc5ec52e6564f5828d212ce7c4bd1093919d0a2a/system.slice/tomcat.service
+             └─5514 /usr/lib/jvm/jre/bin/java -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory -classpath /usr/share/tomcat/bin/bootstrap.jar:/usr/share/tomcat/bin/tomcat-juli.jar: -Dcatalina.base=/usr/share/tomcat -Dcatalina.home=/usr/share/tomcat -Djava.endorsed.dirs= -Djava.io.tmpdir=/var/cache/tomcat/temp -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dsun.io.useCanonCaches=false org.apache.catalina.startup.Bootstrap start
+
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.011 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.119 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2192] milliseconds
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.421 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.421 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.513 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Nov 23 09:44:53 stapp01.stratos.xfusioncorp.com server[5514]: 23-Nov-2025 09:44:53.605 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [485] milliseconds
+Nov 23 09:45:01 stapp01.stratos.xfusioncorp.com systemd[1]: tomcat.service: Changed dead -> running
+Nov 23 09:45:02 stapp01.stratos.xfusioncorp.com systemd[1]: tomcat.service: Failed to reset devices.allow/devices.deny: Operation not permitted
+Nov 23 09:45:02 stapp01.stratos.xfusioncorp.com systemd[1]: tomcat.service: Failed to set 'trusted.invocation_id' xattr on control group /docker/71699d04a7f3c1a71849b3eebc5ec52e6564f5828d212ce7c4bd1093919d0a2a/system.slice/tomcat.service, ignoring: Operation not permitted
+Nov 23 09:45:02 stapp01.stratos.xfusioncorp.com systemd[1]: tomcat.service: Failed to remove 'trusted.delegate' xattr flag on control group /docker/71699d04a7f3c1a71849b3eebc5ec52e6564f5828d212ce7c4bd1093919d0a2a/system.slice/tomcat.service, ignoring: Operation not permitted
+[tony@stapp01 ~]$ sudo vi /etc/tomcat/server.xml
+[tony@stapp01 ~]$ sudo systemctl restart tomcat
+[tony@stapp01 ~]$ sudo systemctl status tomcat
+● tomcat.service - Apache Tomcat Web Application Container
+     Loaded: loaded (/usr/lib/systemd/system/tomcat.service; enabled; preset: disabled)
+     Active: active (running) since Sun 2025-11-23 09:50:22 UTC; 5s ago
+   Main PID: 6219 (java)
+      Tasks: 40 (limit: 411434)
+     Memory: 95.7M
+     CGroup: /docker/71699d04a7f3c1a71849b3eebc5ec52e6564f5828d212ce7c4bd1093919d0a2a/system.slice/tomcat.service
+             └─6219 /usr/lib/jvm/jre/bin/java -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory -classpath /usr/share/tomcat/bin/bootstrap.jar:/usr/share/tomcat/bin/tomcat-juli.jar: -Dcatalina.base=/usr/share/tomcat -Dcatalina.home=/usr/share/tomcat -Djava.endorsed.dirs= -Djava.io.tmpdir=/var/cache/tomcat/temp -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dsun.io.useCanonCaches=false org.apache.catalina.startup.Bootstrap start
+
+Nov 23 09:50:24 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:24.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.0].
+Nov 23 09:50:24 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:24.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Nov 23 09:50:24 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:24.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Nov 23 09:50:24 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:24.127 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.1 1 Jul 2025]
+Nov 23 09:50:25 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:25.608 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8085"]
+Nov 23 09:50:25 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:25.812 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2601] milliseconds
+Nov 23 09:50:26 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:26.207 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Nov 23 09:50:26 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:26.207 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+Nov 23 09:50:26 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:26.220 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8085"]
+Nov 23 09:50:26 stapp01.stratos.xfusioncorp.com server[6219]: 23-Nov-2025 09:50:26.313 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [500] milliseconds
+[tony@stapp01 ~]$ sudo netstat -tulpn | grep 8085
+tcp        0      0 0.0.0.0:8085            0.0.0.0:*               LISTEN      6219/java           
+[tony@stapp01 ~]$ sudo grep 8085
+
+
+
+  
+^[[C^[[C
+^C
+[tony@stapp01 ~]$ sudo netstat -tulpn
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.11:32997        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:8005          0.0.0.0:*               LISTEN      6219/java           
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      3857/sshd: /usr/sbi 
+tcp        0      0 0.0.0.0:8085            0.0.0.0:*               LISTEN      6219/java           
+tcp6       0      0 :::22                   :::*                    LISTEN      3857/sshd: /usr/sbi 
+udp        0      0 127.0.0.11:57866        0.0.0.0:*                           -                   
+[tony@stapp01 ~]$ scp /tmp/ROOT.war tony@stapp01:/tmp/
+The authenticity of host 'stapp01 (172.16.238.10)' can't be established.
+ED25519 key fingerprint is SHA256:WpnfVwnUSbToRyspZX43B/XZ7OHiZNxOf6lNLjwhqxQ.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'stapp01' (ED25519) to the list of known hosts.
+tony@stapp01's password: 
+stat local "/tmp/ROOT.war": No such file or directory
+[tony@stapp01 ~]$ ssh thor@jump_host
+The authenticity of host 'jump_host (172.17.0.6)' can't be established.
+ED25519 key fingerprint is SHA256:T06Qe5JqOiyZISiN9fb+VYwGyKOLnUnoMnkZ+QFOO0s.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'jump_host' (ED25519) to the list of known hosts.
+thor@jump_host's password: 
+Last login: Sun Nov 23 09:37:33 2025
+thor@jumphost ~$ mv /tmp/
+mv: missing destination file operand after '/tmp/'
+Try 'mv --help' for more information.
+thor@jumphost ~$ cd /tmp/
+thor@jumphost /tmp$ cd
+thor@jumphost ~$ 
+thor@jumphost ~$ scp /tmp/ROOT.war 
+bash: thor@jumphost: command not found
+thor@jumphost ~$ scp /tmp/ROOT.war tony@stapp01:/tmp/ 
+tony@stapp01's password: 
+ROOT.war           100% 4529     3.8MB/s   00:00    
+thor@jumphost ~$ ssh tony@stapp01
+tony@stapp01's password: 
+Last login: Sun Nov 23 09:40:22 2025 from 172.16.238.3
+[tony@stapp01 ~]$ sudo mv /tmp/ROOT.war /var/lib/tomcat/webapps/
+[sudo] password for tony: 
+[tony@stapp01 ~]$ sudo chown tomcat:tomcat /var/lib/tomcat/webapps/ROOT.war
+[tony@stapp01 ~]$ sudo systemctl restart tomcat
+[tony@stapp01 ~]$ curl http://stapp01:8085
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SampleWebApp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Welcome to xFusionCorp Industries!</h2>
+        <br>
+    
+    </body>
+</html>
+[tony@stapp01 ~]$ 
