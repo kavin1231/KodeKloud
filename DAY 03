@@ -1,0 +1,73 @@
+thor@jumphost ~$ ssh tony@stapp01
+The authenticity of host 'stapp01 (172.16.238.10)' can't be established.
+ED25519 key fingerprint is SHA256:4j4YOjeM9iWpafM3MWKNf1zW/LXdYbRDqHL4h4afuQQ.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'stapp01' (ED25519) to the list of known hosts.
+tony@stapp01's password: 
+[tony@stapp01 ~]$ sudo su
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for tony: 
+[root@stapp01 tony]# whoami
+root
+[root@stapp01 tony]# pwd
+/home/tony
+[root@stapp01 tony]# vi /etc/ssh/sshd_config
+[root@stapp01 tony]# systemctl restart sshd
+[root@stapp01 tony]# grep PermitRootLogin /etc/ssh/sshd_config
+PermitRootLogin no
+# the setting of "PermitRootLogin without-password".
+[root@stapp01 tony]# ssh steve@stapp02
+The authenticity of host 'stapp02 (172.16.238.11)' can't be established.
+ED25519 key fingerprint is SHA256:8kKD9vH4QYkOvSpooBzrD+jR6PI9G18ltK0gHxq8s0U.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'stapp02' (ED25519) to the list of known hosts.
+steve@stapp02's password: 
+[steve@stapp02 ~]$ sudo su
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for steve: 
+[root@stapp02 steve]# vi /etc/ssh/sshd_config
+[root@stapp02 steve]# systemctl restart sshd
+[root@stapp02 steve]# grep PermitRootLogin /etc/ssh/sshd_login
+grep: /etc/ssh/sshd_login: No such file or directory
+[root@stapp02 steve]# grep PermitRootLogin /etc/ssh/sshd_config
+PermitRootLogin no
+# the setting of "PermitRootLogin without-password".
+[root@stapp02 steve]# ssh banner@stapp03
+The authenticity of host 'stapp03 (172.16.238.12)' can't be established.
+ED25519 key fingerprint is SHA256:ItrWb2fbsl1Lyxjk1MY2nnyu/ZrDT1KnIurlg+lRK8M.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'stapp03' (ED25519) to the list of known hosts.
+banner@stapp03's password: 
+[banner@stapp03 ~]$ sudo su
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for banner: 
+[root@stapp03 banner]# vi /etc/ssh/sshd_config
+[root@stapp03 banner]# systemctl restart sshd
+[root@stapp03 banner]# grep PermitRootLogin /etc/ssh/sshd_config
+PermitRootLogin no
+# the setting of "PermitRootLogin without-password".
+[root@stapp03 banner]# 
